@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
-import axios from "axios"
-import StarWarsList from "./components/StarWarsList"
+import axios from "axios";
+import StarWarsList from "./components/StarWarsList";
 
 
 
@@ -26,7 +26,7 @@ useEffect(() => {
     <div className="App">
       <h1 className="Header">React Wars</h1>
       <div> 
-        <StarWarsList props={StarWars} /> 
+        {/* {/* <StarWarsList props={StarWars} />  */}
       </div>
     </div>
   );
