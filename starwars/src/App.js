@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import axios from "axios";
 import StarWarsList from "./components/StarWarsList";
-
+import GlobalStyle from "./GlobalStyle"
 
 
 const App = () => {
@@ -24,6 +24,7 @@ useEffect(() => {
 
   return (
     <div className="App">
+    <GlobalStyle />
       <h1 className="Header">React Wars</h1>
       <div> 
         <StarWarsList props={StarWars} /> 

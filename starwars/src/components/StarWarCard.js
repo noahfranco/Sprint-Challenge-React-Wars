@@ -1,9 +1,10 @@
 import React from "react";
+import {TitleColor} from "./styling"
 
 function StarWarsCaracterCards(props) {
     return (
         <div> 
-            <h2> {props.character.name} </h2>
+            <TitleColor> {props.character.name} </TitleColor>
             <p> Height: {props.character.height} </p>
             <p> Mass: {props.character.mass} </p>
             <p> Hair Color: {props.character.hair_color} </p>
