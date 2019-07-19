@@ -27,13 +27,13 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
 - [ ] What does it mean to _think_ in react?
-
+Answer: thinking in react involves thinking in structure and how to think ahead to scale the app.
 - [ ] Describe state.
-
+Answer: State is an object that repersents the part of the app that can change. 
 - [ ] Describe props.
-
+Answer: porps and state both go along side eatch other props is used to render the data. Pass down the state. 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
-
+Answer: 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
