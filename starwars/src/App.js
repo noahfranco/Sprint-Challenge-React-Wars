@@ -26,7 +26,7 @@ useEffect(() => {
     <div className="App">
       <h1 className="Header">React Wars</h1>
       <div> 
-        {/* {/* <StarWarsList props={StarWars} />  */}
+        <StarWarsList props={StarWars} /> 
       </div>
     </div>
   );
